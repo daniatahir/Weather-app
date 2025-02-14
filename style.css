@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3b3636;
+}
+.container{
+    background:linear-gradient(#0eb1d2,#34E4EA,#8ab9b5);
+    margin: 3rem auto 0;
+    border: none;
+    border-radius: 4%;
+    width: 30rem;
+    max-width: 90%;
+    height: 35rem;
+    text-align: center;
+    padding: 5px;
+}
+.container input{
+    height: 40px;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: grey;
+    background-color: lightgray;
+    color: black;
+}
+.container button{
+    cursor: pointer;
+    background-color: grey;
+    color: antiquewhite;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-left: -40px;
+}
+.mainInfo{
+    margin-top: 30px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.temp{
+    font-size: 80px;
+}
+.city{
+    margin-top: 5px;
+    font-size: 30px;
+}
+.otherInfo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+.humidity, .windSpeed {
+    display: flex;
+}
+.otherInfo img{
+    width: 60px;
+    height: 60px;
+}
+.condition{
+    color:white;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.wind,.humid{
+    font-size: 15px;
+}
+.pic img{
+    margin-top: 20px;
+    width: 10rem;
+    height: 10rem;
+}
+.country
+{
+    display: flex;
+    gap:3px;
+    justify-content: center;
+    align-items: center;
+}
